@@ -1,0 +1,21 @@
+# AuraEvents
+
+> AuraEvents is an event-planning web app for exploring event services, estimating budgets, and managing booking inquiries. It supports local demo data and can optionally connect to Supabase.
+
+## Main sections
+
+- [Home](/)
+- [Cost calculator](/#calculator): Estimate event costs by event type and guest count.
+- [Services](/#services): Browse event infrastructure, equipment, and planning services.
+- [Pricing plans](/#pricing): Compare the Seminar Basic, Cultural Fest Pro, and Mega Arena Elite plans.
+- [Database dashboard](/#db-console): Review database and transaction features.
+- [Event showcases](/#showcase): Explore example event models.
+- [Frequently asked questions](/#faq)
+- [Contact and inquiries](/#contact)
+
+## Important information
+
+- Sign-in and checkout are demonstrations only. No real payment provider is connected.
+- Without Supabase configuration, demo data is stored in the browser using local storage.
+- Email notifications require a separately configured backend and SMTP credentials.
+- Do not submit real payment details or expose private credentials in frontend configuration.

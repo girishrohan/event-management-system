@@ -495,6 +495,17 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
 }
 
+.section-desc-link {
+  color: var(--accent-text);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.section-desc-link:hover {
+  color: var(--accent-primary);
+}
+
 .calculator-wrapper {
   display: grid;
   grid-template-columns: 1.2fr 0.8fr;

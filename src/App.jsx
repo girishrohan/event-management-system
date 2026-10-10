@@ -1380,6 +1380,7 @@ function App() {
               Services
               <span className="nav-badge">{services.length}</span>
             </a>
+            <a href="#pricing" className="nav-link" onClick={() => setMobileMenuOpen(false)}>Plans</a>
             <a href="#db-console" className="nav-link" style={{color: 'var(--accent-text)', fontWeight: '700'}} onClick={() => setMobileMenuOpen(false)}>
               DBMS Dashboard
             </a>
@@ -2839,6 +2840,7 @@ JOIN Participant PT ON B.ParticipantID = PT.ParticipantID;`}
             <h2 className="section-title">Our Full Service Suite</h2>
             <p className="section-desc">
               Explore 18 complete standard and customized event infrastructure solutions. Search or filter to build your college project layout.
+              {' '}<a href="#pricing" className="section-desc-link">Compare event plans</a>
             </p>
           </div>
 
@@ -3346,6 +3348,7 @@ JOIN Participant PT ON B.ParticipantID = PT.ParticipantID;`}
               <ul className="footer-links">
                 <li><a href="#faq" className="footer-link">FAQ Guide</a></li>
                 <li><a href="#calculator" className="footer-link">Cost Calculator</a></li>
+                <li><a href="#pricing" className="footer-link">Pricing plans</a></li>
                 <li><a href="#contact" className="footer-link">Submit Feedback</a></li>
                 <li style={{color: 'var(--text-muted)', fontSize: '0.8rem', marginTop: '0.5rem'}}>Course Code: CSE-DBMS-2026</li>
               </ul>
